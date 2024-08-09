@@ -1,0 +1,75 @@
+html, body {
+    font-family: Verdana, sans-serf;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#subtopnav {
+    position: fixed;
+    background-color: #282A35;
+    color: #f1f1f1;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    font-size: 0;
+    z-index: 2;
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+    scrollbar-width: none;
+    margin: 0 !important;
+}
+
+#subtopnav a {
+    display: inline-block;
+    width: auto;
+    padding: 7px 15px 5px 15px !important;
+    font-size: 15px !important;
+    text-decoration: none;
+    line-height: 1.5;    
+}
+a {
+    color: inherit;
+}
+
+a:hover {
+    background-color: black;
+}
+
+a::after {
+    color:green; 
+}
+
+a:focus {
+   background-color: green;
+}
+
+#menubtn_container {
+    position: fixed;
+    left: 0;
+    top: 56px;
+    height: 33px;
+    color: white;
+    font-size: 15px;
+}
+
+
+.herosection {
+    background-image: url(/images/bg.jpg), url(/images/bg.jpg) ;
+    background-repeat: no-repeat, repeat;
+    background-position: 90% 60%, center center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 32px;
+}
